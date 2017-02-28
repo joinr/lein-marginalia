@@ -14,7 +14,8 @@
       (eip project form init)
       (eip project form nil nil init))))
 
-(def dep ['marginalia "0.9.0"])
+;;temporarily patched, forgot about this.
+(def dep ['joinr/marginalia "0.9.1-SNAPSHOT"])
 
 (defn- add-marg-dep [project]
   ;; Leiningen 2 is a bit smarter about only conjing it in if it
